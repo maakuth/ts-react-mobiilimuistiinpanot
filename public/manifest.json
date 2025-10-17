@@ -1,0 +1,21 @@
+{
+  "name": "Voice Notes AI",
+  "short_name": "VoiceNotes",
+  "description": "A speech-to-text note-taking application that captures your thoughts on the go.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#1f2937",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

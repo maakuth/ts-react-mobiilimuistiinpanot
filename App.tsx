@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import type { Note, GeolocationCoordinates } from './types';
+// FIX: GeolocationCoordinates is a global DOM type and should not be imported from local modules.
+import type { Note } from './types';
 import NoteCard from './components/NoteCard';
 import { summarizeNote } from './services/geminiService';
 import { MicrophoneIcon, StopIcon } from './components/icons';
