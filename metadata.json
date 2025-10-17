@@ -1,0 +1,7 @@
+{
+  "name": "Voice Notes AI",
+  "description": "A speech-to-text note-taking application that captures your thoughts on the go. Each note is automatically timestamped and geotagged. It also features an optional AI-powered summarization tool using Gemini to distill your notes into key points.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
